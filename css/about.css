@@ -1,0 +1,138 @@
+/* 图片 */
+.about  {
+    min-width: 1200px;
+}
+.about .about-banner {
+    position: relative;
+    max-height: 320px;
+    overflow: hidden;
+    padding: 0;
+}
+.banner-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 52px;
+    color: #fff;
+}
+/* 内容 */
+.about .about-main {
+    width: 96%;
+    min-height: 200px;
+    margin: 30px 2%;
+
+}
+.about-main .aboutA,
+.about-main .aboutB,
+.about-main .aboutC,
+.about-main .aboutD{
+    overflow: hidden;
+}
+/* 左侧标题 */
+.aboutA_l {
+    float: left;
+}
+.aboutB,
+.aboutC {
+    margin-top: 20px;
+    min-height: 200px;
+}
+.aboutA_l h1 {
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    padding-bottom: 22px;
+    margin: 0;
+}
+.aboutA_l h1:after,
+.aboutB_l h1:after,
+.aboutC_l h1:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 65px;
+    height: 5px;
+    background: #9b9b9b;
+}
+
+.aboutA_l span,
+.aboutB_l span,
+.aboutC_l span {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 10px;
+    display: block;
+}
+.aboutB_l,
+.aboutC_l {
+    float: left;
+}
+.aboutB_l {
+    margin-top: 50px;
+}
+.aboutB_l h1,
+.aboutC_l h1 {
+    position: relative;
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 22px;
+}
+/* 右侧内容 */
+.aboutA_r,
+.aboutB_r,
+.aboutC_r {
+    float: right;
+    width: 80%;
+    font-size: 16px;
+}
+.aboutA_r p {
+    color: #666666;
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.aboutB_r {
+    position: relative;
+    width: 65%;
+    font-size: 16px;
+    line-height: 40px;
+    color: #414141;
+    margin-right: 106px;
+    margin-top: 50px;
+}
+.aboutB_r:before {
+    position: absolute;
+    left: -130px;
+    top: -28px;
+    content: url("http://www.puzhentec.com/www/style/gs/imgs/about1.png");
+    
+}
+.aboutB_r:after {
+    position: absolute;
+    right: -106px;
+    bottom: -82px;
+    content: url("http://www.puzhentec.com/www/style/gs/imgs/about.png");
+}
+.aboutC_r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aboutC_r div {
+    width: 38%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutC_r div p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.aboutC_r img {
+    width: 498px;
+    height: 260px;
+}
+
