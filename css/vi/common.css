@@ -1,0 +1,240 @@
+.col-lg-4,.col-md-4,.col-sm-12,.col-xs-12{
+	padding: 0;
+}
+.row{
+	margin: 0;
+}
+/* 背景样式 */
+.bg{
+	width:100%;
+	height: 272px;
+	margin-top: 90px;
+	background-image: url('../../img/vi/main-bg.jpg');
+}
+.bg .title{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 272px;
+}
+.content{
+	padding-top: 30px;
+	background: #f8f8f8;
+}
+.b-title{
+	font-size: 24px;
+    border-left: solid 2px #ff0000;
+    margin-left: 27px;
+    padding: 0px 0 0 10px;
+	box-sizing: border-box;
+}
+.content .b-content{
+	margin: 10px auto;
+}
+.content .b-content dl{
+	width: 375px;
+	margin: 20px 27px 60px;
+	box-sizing: border-box;
+    background: #fff;
+}
+@media screen and (max-width: 768px){
+	.content .b-content{
+		padding: 0px 16px;
+		box-sizing: border-box;
+	}
+	.content .b-content dl{
+		width: 100%;
+		margin: 20px 0px;
+	}
+}
+@media screen and (max-width: 992px){
+	.content .b-content{
+		padding: 0px 16px;
+		box-sizing: border-box;
+	}
+	.content .b-content dl{
+		width: 100%;
+		margin: 20px 0px 20px;
+		box-sizing: border-box;
+	}
+}
+.b-content dl dt h3{
+	height: 80px;
+	font-size: 20px;
+	color: #fff;
+    line-height: 80px;
+    text-align: center;
+	background: #08A0E9;
+}
+.b-content dl dt p{
+	height: 38px;
+    color: #666;
+	font-size: 14px;
+	font-weight: 400;
+    line-height: 26px;
+	padding: 0px 20px 20px 20px;
+	margin: 30px 0 26px 0;
+	box-sizing: border-box;
+}
+.b-content dl dd{
+	height: 240px;
+	border-top: solid 1px #ddd;
+	margin: 6px 22px;
+    padding: 10px 0;
+	box-sizing: border-box;
+}
+.b-content dd ul{
+    margin: 10px 0;
+	font-size: 14px;
+    overflow: hidden;
+}
+.b-content dd ul li:first-child{
+	float: left;
+	font-weight: bold;
+    line-height: 25px;
+	padding-left: 22px;
+	background: url('../../img/vi/met1ico1.png') no-repeat 0 4px;
+}
+.b-content dd ul li:last-child {
+	float: left;
+	width: 67%;
+	text-align: left;
+	line-height: 25px;
+    margin-left: 14px;
+}
+.con1{
+	width: 100%;
+	height: 803px;
+	padding-top: 30px;
+	background: #fff;
+}
+.b-txt{
+	font-size: 14px;
+    padding-left: 40px;
+    margin: 30px 0 26px 0;
+	box-sizing: border-box;
+}
+.pic{
+	width: 100%; 
+}
+.pic dl{
+	height: 300px;
+	margin: 40px 13px;
+	border: solid 1px #08A0E9;
+	background: #08A0E9;
+    box-sizing: border-box;
+	overflow: hidden;
+}
+@media  screen and (min-width:1200px) {
+	.pic dl{
+		width: 18%;
+	}
+}
+@media  screen and (max-width:992px) {
+	.pic{
+		padding: 0px 20px;
+		box-sizing: border-box;
+	}
+	.pic dl{
+		width: 44%;
+		margin: 20px;
+	}
+}
+@media  screen and (max-width:768px) {
+	.pic{
+		padding: 0px 20px;
+		box-sizing: border-box;
+	}
+	.pic dl{
+		width: 100%;
+		margin: 20px 0px;
+	}
+}
+.pic dt{
+	height: 238px;
+	background: #fff;
+	overflow: hidden;
+}
+.pic dt img{
+	width: 100%;
+    margin: 15px auto;
+	transition: all 1s;
+}
+.pic dt img:hover{
+	transform: scale(1.1);
+}
+.pic dd{
+	width: 100%;
+	font-size: 16px;
+    color: #fff;
+	text-align: center;
+    padding: 18px 0;
+    background: #08A0E9;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+}
+.main ul{
+	height: 100%;
+	margin: 30px 75px 100px;
+	box-sizing: border-box;
+}
+.main ul li{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+	height: 100%;
+	margin: 20px 16px;
+}
+@media screen and (min-width: 1200px){
+	.main ul li{
+		width: 17%;
+	}
+}
+@media screen and (max-width: 992px){
+	.main ul li{
+		width: 44%;
+	}
+}
+@media screen and (max-width: 768px){
+	.main ul{
+		margin: 30px 0 0 0; 
+	}
+	.main ul li{
+		width: 40%;
+	}
+}
+.process-cnt {
+	width: 154px;
+    height: 154px;
+    font-size: 24px;
+    line-height: 154px;
+    text-align: center;
+	border-radius: 50%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.process-list .cnt1 {
+    background-image: url('../../img/vi/cnt1.png');
+}
+.process-list .cnt2 {
+    background-image: url('../../img/vi/cnt2.png');
+}
+.process-list .cnt3 {
+    background-image: url('../../img/vi/cnt3.png');
+}
+.process-list .cnt4 {
+    background-image: url('../../img/vi/cnt4.png');
+}
+.process-list .cnt5 {
+    background-image: url('../../img/vi/cnt5.png');
+}
+.process-title {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    line-height: 24px;
+	padding-top: 20px;
+}
