@@ -23,7 +23,12 @@ list-style: none;
 blockquote, q {
 quotes: none;
 }
-
+a:hover{
+text-decoration:none;
+}
+a{
+	text-decoration:none;
+}
 /* remember to define focus styles! */
 :focus {
 outline: 0;}
