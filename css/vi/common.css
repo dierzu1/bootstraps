@@ -8,7 +8,6 @@
 .bg{
 	width:100%;
 	height: 272px;
-	margin-top: 90px;
 	background-image: url('../../img/vi/main-bg.jpg');
 }
 .bg .title{
@@ -104,8 +103,9 @@
 }
 .con1{
 	width: 100%;
-	height: 803px;
 	padding-top: 30px;
+	margin-bottom: 114px;
+	box-sizing: border-box;
 	background: #fff;
 }
 .b-txt{
@@ -157,6 +157,7 @@
 }
 .pic dt img{
 	width: 100%;
+	height: 100%;
     margin: 15px auto;
 	transition: all 1s;
 }
