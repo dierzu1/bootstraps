@@ -1,13 +1,30 @@
 /*导航*/
+	/*动态获取width*/
+
+function getWidth(){
+	$('#puzhen .headers nav .container .nav-list ul.nav>li.dropdown').each(function (index,item){
+		console.log($(this).offset().left,$(document).outerWidth())
+		var curWidth=$(document).outerWidth()-$(this).offset().left;
+		$(this).find('ul.dropdown-menu').css({
+			'width':curWidth+'px'
+		})
+	})
+} 
+getWidth()
+
+
+
 $('#puzhen .headers nav .container .nav-list ul.nav>li.dropdown').hover(function (ev){
-	console.log(ev.pageX)
+	
+	
 	$(this).addClass('open')
-	$(this).css({
-		'position':'static'
-	})
-	$(this).find('ul.dropdown-menu').css({
-		'left':ev.pageX+'px'
-	})
+	
+	
 },function (){
 	$(this).removeClass('open')
+})
+$(window).resize(function (){
+	getWidth()
+
+
 })

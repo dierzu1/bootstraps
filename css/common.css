@@ -13,54 +13,111 @@
 	padding:0;
 	height:100%;
 }
+
 #puzhen .headers nav .container .nav-list{
 	height:100% !important;
 }
-#puzhen .headers nav .container .nav-list ul.nav{
-	height:100%;
-}
-#puzhen .headers nav .container .nav-list ul.nav>li{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	height:100%;
-	padding:0 20px;
-	
-}
-#puzhen .headers nav .container .nav-list ul.nav>li:hover{
-	background:red;
 
-}
-#puzhen .headers nav .container .nav-list ul.nav>li:hover>a{
-	color:#fff;
-}
-#puzhen .headers nav .container .nav-list ul.nav>li:first-child{
-	width:100px;
-	padding:0;
-	
-}
-#puzhen .headers nav .container .nav-list ul.nav>li>a{
-	padding:0;
-
-}
 #puzhen .headers .navbar-default .navbar-nav>.open>a,#puzhen .headers .navbar-default .navbar-nav>.open>a:focus,#puzhen .headers .navbar-default .navbar-nav>.open>a:hover{
 	color:#fff;
 	background:transparent;
 }
-#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu{
-	background:rgba(0,0,0,.5);
-	border:none;
-	height:70px;
-	max-width:600%;
+#puzhen .headers nav .container .nav-list ul.nav{
+	height:100%;
 }
-@media(max-width:993px){
+
+
+
+
+#puzhen .headers nav .container .nav-list ul.nav>li>a{
+	padding:0;
+}
+
+
+#puzhen .headers .navbar-default .navbar-nav>.open>a,#puzhen .headers .navbar-default .navbar-nav>.open>a:focus,#puzhen .headers .navbar-default .navbar-nav>.open>a:hover{
+	color:#fff;
+	background:red;
+}
+
+
+
+
+
+
+/*中间需要改变的值*/
+@media(max-width:996px) and (min-width:768px){
+	#puzhen .headers nav .container .nav-list ul.nav>li{
+		padding:0 15px;
+	}
 	#puzhen .headers nav .container .nav-list ul.nav>li:first-child{
 		width:70px;
 		padding:0;
 		
 	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu li{
+		float:left;
+		padding:0 15px;
+		height:70px;
+	}
 }
+@media(min-width:768px){
+	#puzhen .headers nav .container .nav-list ul.nav>li:first-child{
+		width:100px;
+		padding:0;
+		
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		height:100%;
+		padding:0 20px;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li:hover{
+		background:red;
+
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li:hover>a{
+		color:#fff;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu{
+		background:rgba(0,0,0,.5);
+		border:none;
+		height:70px;
+		margin:0;
+		padding:0;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu li{
+		float:left;
+		padding:0 30px;
+
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu li:hover{
+		background:red;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu>li>a:focus, #puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu>li>a:hover{
+		background:red;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu li a{
+		display:block;
+		width:100%;
+		height:100%;
+		line-height:70px;
+		font-size:14px;
+		color:#fff;
+		font-weight:bold;
+		padding:0;
+	}
+}
+
+
+
+
 @media(max-width:768px){
+	#puzhen .headers nav .container{
+		display:block;
+		
+	}
 	#puzhen .headers nav .container .navbar-header{
 		
 		box-sizing:border-box;
@@ -70,14 +127,41 @@
 
 	}
 	#puzhen .headers nav .container .nav-list{
+		box-sizing:border-box;
+		overflow:hidden;
 		width:100%;
 		height:auto !important;
+		z-index:10000;
+		background:#fff;
+		margin:0;
+		padding:0;
+		box-shadow:0 0 20px 0 #ddd;
+		padding:30px;
 	}
-}
-/*ends*/
-.ends{
+	#puzhen .headers nav .container .nav-list .navbar-nav{
+		margin:0;
+	}
+	#puzhen .headers nav .container .nav-list .nav>li{
+		padding:10px 0;
+		\
+	}
+	#puzhen .headers .navbar-default .navbar-nav>.open>a,#puzhen .headers .navbar-default .navbar-nav>.open>a:focus,#puzhen .headers .navbar-default .navbar-nav>.open>a:hover{
+		color:#555;
+		background:transparent;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown ul.dropdown-menu li:hover{
+		background:#ddd;
+	}
+	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown .dropdown-menu>li>a:focus,#puzhen .headers nav .container .nav-list ul.nav>li.dropdown .dropdown-menu>li>a:hover{
+		background:transparent;
+	}
 	
 }
+
+
+/*ends*/
+
+
 .ends .ends-one{
 	
 
@@ -113,4 +197,5 @@
 .ends .ends-two ul{
 	display:flex;
 	justify-content:space-between;
+	margin:0;
 }

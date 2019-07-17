@@ -158,10 +158,10 @@
 }
 #puzhen .centers .creative .creative-center ul>li .bg{
 	position:absolute;
-	top:50px;
+	bottom:0;
 	left:0;
 	width:100%;
-	height:100%;
+	height:80%;
 	background:url('../img/bg1.jpg') no-repeat 0 0;
 	background-size:100%;
 	z-index:-100;
@@ -261,6 +261,7 @@
 	padding:0;
 }
 #puzhen .company .company-center .everys>div{
+	overflow:hidden;
 	padding:0;
 	margin:0;
 	height:100%;
@@ -268,7 +269,10 @@
 #puzhen .company .company-center .everys>div img{
 	width:100%;
 	height:100%;
-
+	transition:all 1s;
+}
+#puzhen .company .company-center .everys>div img:hover{
+	transform:scale(1.1)
 }
 
 #puzhen .company .company-center .everys>div.com-txt{

@@ -65,7 +65,7 @@ $('#puzhen .centers .creative .creative-center ul>li').hover(function (){
 	},500)
 	$(this).find('.bg').fadeIn(50)
 	$(this).find('.bg').animate({
-		'top':'0px'
+		'height':'100%'
 	},100)
 	
 },function(){
@@ -74,6 +74,6 @@ $('#puzhen .centers .creative .creative-center ul>li').hover(function (){
 	},50)
 	$(this).find('.bg').fadeOut(500)
 	$(this).find('.bg').animate({
-		'top':'50px'
+		'height':'80%'
 	},100)
 })
