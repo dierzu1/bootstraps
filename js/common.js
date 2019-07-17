@@ -15,16 +15,10 @@ getWidth()
 
 
 $('#puzhen .headers nav .container .nav-list ul.nav>li.dropdown').hover(function (ev){
-	
-	
 	$(this).addClass('open')
-	
-	
 },function (){
 	$(this).removeClass('open')
 })
 $(window).resize(function (){
 	getWidth()
-
-
 })
