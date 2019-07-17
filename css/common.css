@@ -113,4 +113,5 @@
 .ends .ends-two ul{
 	display:flex;
 	justify-content:space-between;
+	margin: 0;
 }
