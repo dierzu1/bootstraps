@@ -212,5 +212,9 @@
 .ends .ends-two ul{
 	display:flex;
 	justify-content:space-between;
+<<<<<<< HEAD
 	margin:0;
+=======
+	margin: 0;
+>>>>>>> 6b13debe0f4d3efccb8624db95d68e296533743c
 }
