@@ -1,4 +1,9 @@
-
+.col-lg-12,.col-md-4,.col-sm-12,.col-xs-12{
+	padding: 0;
+}
+.row{
+	margin: 0 auto;
+}
 #puzhen .headers{
 	height:90px;
 }
@@ -155,7 +160,14 @@
 	#puzhen .headers nav .container .nav-list ul.nav>li.dropdown .dropdown-menu>li>a:focus,#puzhen .headers nav .container .nav-list ul.nav>li.dropdown .dropdown-menu>li>a:hover{
 		background:transparent;
 	}
+<<<<<<< HEAD
 	
+=======
+}
+/*ends*/
+.ends{
+	margin-top:20px;
+>>>>>>> 05acb7a65788956383e75eff7f08def50f358e33
 }
 
 
@@ -163,8 +175,6 @@
 
 
 .ends .ends-one{
-	
-
 	box-sizing:border-box;
 	height:198px;
 	padding-top:39px;
@@ -175,6 +185,11 @@
 .ends .ends-one div{
 	display:flex;
 	justify-content:space-between;
+}
+.ends .ends-one div dl{
+	font-size: 12px;
+	text-align: center;
+	margin: 15px 0 15px 22px;
 }
 .ends .ends-one div dl dt{
 	margin-bottom:15px;
