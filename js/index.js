@@ -62,7 +62,13 @@ $('#puzhen .centers .banner').hover(function (){
 $('#puzhen .centers .creative .creative-center ul>li').hover(function (){
 	$(this).find('.xian').animate({
 		'width':'100%'
+		
 	},500)
+	$(this).find('.xian').css({
+		'background':'#fff'
+	})
+
+
 	$(this).find('.bg').fadeIn(50)
 	$(this).find('.bg').animate({
 		'height':'100%'
@@ -72,6 +78,10 @@ $('#puzhen .centers .creative .creative-center ul>li').hover(function (){
 	$(this).find('.xian').animate({
 		'width':'50%'
 	},50)
+	$(this).find('.xian').css({
+		'background':'#000'
+	})
+	
 	$(this).find('.bg').fadeOut(500)
 	$(this).find('.bg').animate({
 		'height':'80%'

@@ -192,20 +192,20 @@
 #puzhen .centers .creative .creative-center ul>li:nth-child(1) .txt span{
 	background-position:0 0;
 }
-#puzhen .centers .creative .creative-center ul>li:nth-child(1) .txt span:hover{
+#puzhen .centers .creative .creative-center ul>li:nth-child(1):hover .txt span{
 	background-position:0 -92px;
 }
 /*第二个*/
 #puzhen .centers .creative .creative-center ul>li:nth-child(2) .txt span{
 	background-position:-115px 0;
 }
-#puzhen .centers .creative .creative-center ul>li:nth-child(2) .txt span:hover{
+#puzhen .centers .creative .creative-center ul>li:nth-child(2):hover .txt span{
 	background-position:-114px -93px;
 }
 #puzhen .centers .creative .creative-center ul>li:nth-child(3) .txt span{
 	background-position:-236px 0;
 }
-#puzhen .centers .creative .creative-center ul>li:nth-child(3) .txt span:hover{
+#puzhen .centers .creative .creative-center ul>li:nth-child(3):hover .txt span{
 	background-position:-236px -93px;
 }
 
