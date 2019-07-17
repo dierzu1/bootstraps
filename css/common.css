@@ -1,4 +1,9 @@
-
+.col-lg-12,.col-md-4,.col-sm-12,.col-xs-12{
+	padding: 0;
+}
+.row{
+	margin: 0 auto;
+}
 #puzhen .headers{
 	height:90px;
 }
@@ -76,11 +81,9 @@
 }
 /*ends*/
 .ends{
-	
+	margin-top:20px;
 }
 .ends .ends-one{
-	
-
 	box-sizing:border-box;
 	height:198px;
 	padding-top:39px;
@@ -91,6 +94,11 @@
 .ends .ends-one div{
 	display:flex;
 	justify-content:space-between;
+}
+.ends .ends-one div dl{
+	font-size: 12px;
+	text-align: center;
+	margin: 15px 0 15px 22px;
 }
 .ends .ends-one div dl dt{
 	margin-bottom:15px;
